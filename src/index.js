@@ -2,6 +2,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const app = require("./app");
 const logger = require("./config/logger");
+const express = require("express");
 
 let server;
 const options = {
